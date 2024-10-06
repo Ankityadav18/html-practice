@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+    <style>
+      #ttt{
+        color:red;
+      }
+      #gear{
+        color:green;
+        background-color: greenyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>Scholarship Application Form</h1>
+      <h4>Application Deadline - October 7,2024</h4>
+      <hr />
+      <p>
+        Read the following instructions carefully prior to submitting your
+        application.All winners will be notified on or before the 30th October
+        2024
+      </p>
+      <input type="checkbox" />I read and understand
+      <a href="https://blog.bit.ai/write-instruction-manual/">instructions.<sup id="ttt">*</sup></a>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dicta
+        sapiente nostrum, illo quaerat quidem rem quasi. Fuga numquam laborum
+        hic, harum ab recusandae? Non enim repellat modi beatae. Nulla.
+      </p>
+      <ol type="number">
+      <li><b>Personal Data</b></li>
+       </ol>
+      <p>Tell us about yourself</p>
+      <hr>
+      <p><h3>FULL NAME <sup id="ttt">*</sup></h3></p>
+      
+
+
+      <label for="xyz">First Name</label>
+      <input type="text" id="xyz" name="First_name">
+      <label for="abc">Last name</label>
+      <input type="text" id="abc" name="Last_name"><br><br>
+      <h4> Birth Date<sup id="ttt">*</sup></h4>
+      <label for="pqr">Birthdate</label>
+      <input type="date" id="pqr" required><br><br>
+      <h3>Mobile No<sup id="ttt">*</sup></h3>
+      <label for="ghj">telephone </label>
+      <input type="tel" id="ghj" required name="telephone _Number"><br><br>
+      <h3>Email</h3>
+      <input type="email" name="email">
+      <br>
+      <br>
+      <h3>HOME ADDRESS<sup id="ttt">*</sup></h3>
+      <label for="jkl">Street Address</label>
+      <input type="text" id="jkl" name="address"><br><br>
+      <label for="lzx">Street Address Line 2</label>
+      <input type="text" id="lzx" name="address"><br><br>
+      <label for="xcv">City</label>
+      <input type="text" id="xcv" name="address">
+      <label for="cvb">Province</label>
+      <input type="text" id="cvb" name="address"><br><br>
+      <label for="bnm">ZIPCODE</label>
+      <input type="text"   id="bnm" name="address" required><br><br>
+      <h4>Optional Information</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ex sunt autem placeat doloribus! Delectus, exercitationem. Aliquam adipisci ratione, incidunt, vero cupiditate consectetur amet possimus deleniti, eius pariatur sed delectus. Quidem enim eaque excepturi temporibus ducimus nulla quos numquam atque sint magnam illum accusantium quae quis quo at deserunt, accusamus facilis quasi. Suscipit dignissimos deserunt magni quod molestias voluptatibus excepturi, ad nemo voluptatum, magnam repellendus dolore placeat alias, consequatur laboriosam!</p>
+      <h3>Gender Select</h3>
+      <input type="radio" id="mml" name="Gender" value="male">
+      <label for="mml">MALE</label><br><br>
+      <input type="radio" id="mmm" name="Gender" value="female">
+      <label for="mmm">FEMALE</label><br><br>
+      <h3>ARE you a citizen of India?</h3>
+      <input type="radio" id="mnn" name="Citizen" value="YES">
+      <label for="mnn">YES</label><br><br>
+      <input type="radio" id="mbb" name="Citizen" value="NO">
+      <label for="mmb">NO</label><br><br>
+      <h3>Please check your veteran status</h3>
+      <input type="checkbox" id="mmy">
+      <label for="mmy">VETERAN</label><br><br>
+      <input type="checkbox" id="mmq" >
+      <label for="mmq">CHILD OF VETERAN</label><br><br>
+      <input type="checkbox" id="mmp" >
+      <label for="mmp">NONE OF THE ABOVE</label><br><br>
+      <h3>PLEASE CHECK YOUR STATUS AT THE TIME OF APPLICATION</h3>
+      <input type="radio" id="eee" name="status">
+      <label for="eee"> i will graduate in may.</label><br><br>
+      <input type="radio" id="eel" name="status">
+      <label for="eel"> i will graduate in june.</label><br><br>
+      <input type="radio" id="eem" name="status">
+      <label for="eem"> i will graduate in december.</label><br><br>
+      <input type="radio" id="eet" name="status">
+      <label for="eet"> i will graduate in october.</label><br><br>
+      <input type="radio" id="eed" name="status">
+      <label for="eed"> i will graduate in april.</label><br><br>
+
+      <h3>ARE you first generation class student</h3>
+      <input type="radio" id="ggg" name="class" value="yes">
+      <label for="ggg"> Yes , i am the one.</label><br><br>
+      <input type="radio" id="yyy" name="class" value="no">
+      <label for="yyy"> NO either.</label><br><br>
+      <h3>Major area of Study</h3>
+      <select>
+        <label>Please Select your course</label>
+        <option value=""> select the course</option>
+        <option value="Artificial Intelligence">Artificial Intelligence </option>
+        <option value="Computer Science And Engineering"> Computer Science And Engineering</option>
+        <option value="PHD IN PHYSICS"> PHD IN PHYSICS</option>
+        <option value="PHD IN maths">PHD IN maths</option>
+        </select><br><br> 
+        <label for="ooo">What is your career objective</label>
+       <textarea id="ooo" name="ooo" maxlength="300"></textarea>
+       <p>Are you interested in any of the following field then you can apply for it.
+
+        Make sure to recheck all the defined field required.
+       </p>
+       <h3>
+        Fine Arts Interest
+       </h3>
+       <input type="radio" id="uuu" name="interest">
+       <label for="uuu">Guitar </label><br><br>
+       <input type="radio" id="uuo" name="interest">
+       <label for="uuo">Jazz Band </label><br><br>
+       <input type="radio" id="uuk" name="interest">
+       <label for="uuk">Music </label><br><br>
+       <input type="radio" id="uuq" name="interest">
+       <label for="uuq">Chorus </label><br><br>
+       <input type="radio" id="uuj" name="interest">
+       <label for="uuj">Lyricist </label><br><br>
+       <input type="radio" id="uuc" name="interest">
+       <label for="uuc">Violin </label><br><br>
+       <p><i><b>Have you submitted the application form for admission?</b></i></p>
+       <input type="radio" id="tir" name="application">
+       <label for="tir"> YES </label><br><br>
+       <input type="radio" id="veer" name="application">
+       <label for="veer"> NO</label><br><br>
+       <ol  type="I" start="2">
+        <h3><li>High School Information</li></h3>
+       </ol>
+       <hr>
+        <h4>Are you or will become a high graduate in december?</h4> 
+        
+        <input type="radio" id="tyu" name="graduate">
+        <label for="tyu"> YES</label><br><br>
+        <input type="radio" id="trp" name="graduate">
+        <label for="trp"> NO</label><br><br>
+        <p>Graduation is a time of reflection. It’s a time to look back at the memories we've created: the laughter shared, the lessons learned, and the friendships formed. Each of these moments has shaped who we are today. But it’s also a time to look forward, to embrace the uncertainty of what lies ahead with courage and optimism.</p>
+        <h3>Would you like to be considered for a summer award?</h3>
+        <input type="radio" id="tgh" name="grade">
+        <label for="tgh"> YES</label><br><br>
+        <input type="radio" id="tcx" name="grade">
+        <label for="tcx"> NO</label><br><br>
+
+
+        <label for="war">High School Attended</label><br><br>
+        <input type="text" id="war"><br><br>
+        <label for="add">Year of graduation</label><br><br>
+        <input type="text" id="add"><br><br>
+        <label for="asd">High School Attended</label><br><br>
+        <input type="text" id="asd"><br><br>
+        <label for="all">CGPA</label><br><br>
+        <input type="text" id="all"><br><br>
+        <label for="ddd">High School activities,community,honors.</label><br><br>
+        <textarea  id="ddd"></textarea>
+        <ol type="I" start="3">
+          <h3><li>ACT Information</li></h3>
+        </ol>
+        <hr>
+       <label for="john">Year you took the ACT</label><br><br>
+       <input type="text" id="john"><br><br>
+       <label for="jon">overall ACT scores</label><br><br>
+       <input type="text" id="jon"><br><br>
+       <p>As many of you know, the ACT (American College Testing) is a standardized test widely used for college admissions in the United States. It assesses skills in English, math, reading, and science, and it provides colleges with a measure of academic readiness. For good students, achieving a high ACT score can be a key factor in securing admissions to competitive programs and obtaining scholarships.</p>
+       <p><strong>Note:</strong>If you are 12th graduate and recieve a composite score of 26 you are eligible.</p>
+       <ol type="I" start="4">
+        <h3><li>For Transfer Students Only</li></h3>
+       </ol>
+       <hr>
+       <hr>
+       <label for="new"><strong>Most recent college attended and cummulative transfer CGPA</strong></label>
+       <textarea id="new"></textarea>
+       <ol type="I" start="5">
+        <h3><li>For Students Currently Enrolled at(School Name)</li></h3>
+       </ol>
+       <hr>
+       <label for="blp"> Hours completed by december 2024</label><br><br>
+       <input type="text" id="blp"><br><br>
+       <label for="btp"> Current CGPA</label><br><br>
+       <input type="text" id="btp"><br><br>
+       <label for="bup"> School activities,honors,offices held,etc.</label><br><br>
+      <textarea id="bup"></textarea>
+      <ol type="I" start="6">
+        <h3><li>Extras</li></h3>
+      </ol>
+      <hr>
+      <p>Scholarships are an invaluable resource for students pursuing higher education. They not only alleviate financial burdens but also provide numerous advantages that can significantly enhance the educational experience. Here are some key benefits of scholarships</p>
+
+      <h4>Have you ever recieved a schlorship at School</h4>
+      <input type="radio" id="fare" name="recieved">
+      <label for="fare">Yes</label><br><br>
+      <input type="radio" id="fae" name="recieved">
+      <label for="fae">No</label><br><br>
+       <h4>Do you have any disability</h4>
+       <input type="radio" id="fe" name="recieved">
+      <label for="fe">Yes</label><br><br>
+      <input type="radio" id="fte" name="recieved">
+      <label for="fte">No</label><br><br>
+      <h4>Are you GED patient</h4>
+      <input type="radio" id="fpw" name="recieved">
+      <label for="fpw">yes</label><br><br>
+      <input type="radio" id="rae" name="recieved">
+      <label for="rae">No</label><br><br>
+      <ol type="I" start="7">
+        <h3><li>ESSAY</li></h3>
+      </ol>
+      <hr>
+      <p><i>Reflect on a challenge you faced in your life and how you overcame it. In your essay, describe the situation, the steps you took to address the challenge, and the lessons you learned from the experience. Your essay should be between 300 and 400 words."
+
+      </i></p>
+      <label for="der">Essay</label><br><br>
+      <textarea id="der"></textarea><br><br>
+      <ol type="I" start="8">
+        <h3><li>Applicant's E-Signature</li></h3>
+      </ol>
+      <hr>
+      <p>By signing the space below ,you are certifying that all the provided info.are correct and further for any mishappening you will be responsible.</p>
+      <label for="torn"><strong>Signature</strong></label><br><br>
+      <textarea id="torn"></textarea>
+      <button>clear</button>
+      <hr>
+      <button id="tear">reset</button>
+      <button id="gear">submit</button>
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+      
+      
+     
+
+    
+    </form>
+  </body>
+</html>
